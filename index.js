@@ -63,3 +63,7 @@ server.listen(PORT, () => {
     console.log(`App is running on PORT ${PORT}`);
 })
 
+app.get("/", function (request, response) {
+    response.send("hii");
+  });
+
